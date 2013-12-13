@@ -10,7 +10,7 @@ from socket import gethostname
 
 TIME_FORMAT = "%b %d, %Y %H:%M:%S"
 LINE_FORMAT = "%(time)s\t%(hostname)s\t%(curdir)s\t%(message)s"
-LOG_FILE    = "~/Dropbox/time.log"
+LOG_FILE    = "~/time.log"
 
 
 def main():
